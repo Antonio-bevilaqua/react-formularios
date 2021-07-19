@@ -62,6 +62,7 @@ function FormularioCadastro({ onSubmit }) {
 
   function fieldIsValid(key, value) {
     let newErrors = fieldValidate(key, value, erros);
+    console.log(newErrors);
     setErros(newErrors);
   }
 
@@ -135,6 +136,7 @@ function FormularioCadastro({ onSubmit }) {
             setCpf(newCPF);
             fieldIsValid("cpf", newCPF);
           }}
+
           variant="outlined"
           required
           id="cpf"
