@@ -1,5 +1,3 @@
-Seguindo o curso do alura para formulários com algumas modificações para melhor uso no futuro.
-
 Adicionado a verificação completa de cpf.
 
 Adicionado verificação de nome requerido.
